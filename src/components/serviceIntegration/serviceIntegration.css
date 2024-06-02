@@ -1,0 +1,18 @@
+.integration-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.cardBoxContainer {
+  border: 1px solid #d2ccc8;
+  background-color: #ffff;
+}
+
+.cardBoxContainer:hover {
+  border-color: blue;
+  box-shadow: 0 0 8px 0rem #00000025;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+}
