@@ -1,4 +1,4 @@
-import axios, { AxiosInstance, AxioResponse } from "axios";
+import axios, { AxiosInstance } from "axios";
 
 export class DataManager {
   private axiosInstance: AxiosInstance;
